@@ -436,7 +436,7 @@ msgid "Impressum"
 msgstr "Impressum"
 
 #: core/templates/core/index.html:16
-msgid "Property Searching Just Got So Easy"
+msgid "Road51"
 msgstr "Immobilensuche einfach gemacht"
 
 #: core/templates/core/index.html:18
