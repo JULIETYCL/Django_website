@@ -29,6 +29,7 @@ git clone https://github.com/nimadorostkar/Django-RealEstate.git
 
 3. **Active virtual environment (env)**
 ```sh
+python -mvenv env
 source env/bin/activate
 ```
 
@@ -40,9 +41,7 @@ pip install -r requirements.txt
 5. **Run Migrations**
 
 ```sh
-python manage.py makemigrations
-python manage.py migrate
-python manage.py migrate --run-syncdb
+./scripts/clean_migrations.sh
 
 ```
 

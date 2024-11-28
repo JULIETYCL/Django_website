@@ -11,22 +11,15 @@ python manage.py migrate auth zero
 python manage.py migrate contenttypes zero
 python manage.py migrate sessions zero
 
-python3 manage.py migrate
-
-python3 manage.py makemigrations core
-
-python3 manage.py makemigrations documents
-
-python3 manage.py makemigrations listings
-
-python3 manage.py makemigrations contacts
-
 python3 manage.py makemigrations accounts
+python manage.py makemigrations core
 
-python3 manage.py migrate
+python manage.py migrate
 
+python manage.py makemigrations documents
+python manage.py makemigrations listings
+python manage.py makemigrations contacts
 
+python manage.py migrate
 
-# python3 manage.py createsuperuser
-
-
+# python manage.py createsuperuser
